@@ -98,4 +98,4 @@ Full-chain machines — each writeup covers the complete path from initial footh
   ...           # challenge-provided source & key artifacts
 ```
 
-Each challenge directory is self-contained: the writeup explains the vulnerability and the solve, and the included scripts reproduce the flag. Throwaway experiments, oversized binaries, live-instance session secrets, and infrastructure credentials have been stripped out.
+Each challenge directory holds the writeup plus the final solve/exploit script(s) and any small text-based source or notes. To keep this archive lean for long-term storage, bulky and binary challenge inputs — provided binaries, packet captures, PDFs, images, and regenerable tool dumps — have been removed; the writeups and scripts still document them and how to obtain or regenerate them. Throwaway experiments, live-instance session secrets, and infrastructure credentials were never included.
