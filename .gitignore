@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Node
+node_modules/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
+
+# Secrets / infrastructure — never commit (safety net)
+*.ovpn
+*.pem
+*.key
+id_rsa*
+*.p12
+awscreds.json
+.env
+.env.*
+*.kdbx

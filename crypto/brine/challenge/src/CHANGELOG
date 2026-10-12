@@ -1,0 +1,12 @@
+Kestrel CT-9 thermocline sounder — firmware changelog
+=====================================================
+
+2.4.1  sounder: cavitation counter widened to 16 bits
+2.4.0  auth: KES-2026-0114
+2.3.4  sounder: NVRAM layout
+2.3.2  counter: response format
+2.3.0  sounder: lookup rewritten
+2.2.1  profile: reject duplicate setpoints at provisioning
+2.2.0  profile: setpoints widened to 32 bits
+2.1.0  seal: recovery bundle sealed against the profile
+2.0.0  first SHARD-24 production release

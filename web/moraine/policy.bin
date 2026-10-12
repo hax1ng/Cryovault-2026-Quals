@@ -1,0 +1,48 @@
+{
+  "object": "bay-07.policy",
+  "vault": "cryovault/bay-07",
+  "revision": 56,
+  "issued_by": "kp-pthyvv",
+  "issued": "2026-10-06T22:28:00Z",
+  "release": {
+    "quorum": 1,
+    "to": [
+      {
+        "id": "kp-pthyvv",
+        "name": "Anouk Moldoveanu",
+        "shift": "day",
+        "remarks": "Inspects the jacket valves after each brine pump swap and logs the pressure by hand. Signs the outer airlock log before every jacket cycle and walks the brine gallery on the hour."
+      },
+      {
+        "id": "kp-kjpmcq",
+        "name": "Ingrid Featherstonehaugh",
+        "shift": "night",
+        "remarks": "Signs the outer airlock log before every jacket cycle and walks the brine gallery on the hour. Reads the frost gauges along the east wall and reports any drift straight to the keeper."
+      }
+    ]
+  },
+  "jacket": {
+    "loop": "SHARD-24",
+    "setpoint_c": -42.0,
+    "alarm_c": -38.5,
+    "drift_limit_c_per_h": 0.31
+  },
+  "custody": [
+    {
+      "id": "kp-d8t3gr",
+      "name": "Henrike Abernathy",
+      "post": "intake"
+    },
+    {
+      "id": "kp-f8jjyy",
+      "name": "Bartholomew Quintanilla",
+      "post": "racks"
+    },
+    {
+      "id": "kp-x2s7mh",
+      "name": "Aurelie Vandermolen",
+      "post": "survey"
+    }
+  ],
+  "notes": "Jacket loop SHARD-24 held setpoint through the brine pump swap. Night shift logged two door cycles on the intake airlock. Thermal survey of the outer wall showed no new cold bridges."
+}

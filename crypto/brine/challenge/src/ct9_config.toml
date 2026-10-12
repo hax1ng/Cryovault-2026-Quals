@@ -1,0 +1,19 @@
+# Kestrel CT-9 thermocline sounder - firmware 2.4.1 configuration
+# Values are compiled in; this file documents them.
+
+[counter]
+base_ns          = 48000
+jitter_tick_ns   = 240
+jitter_p_zero    = 0.95
+jitter_tail_k    = 1.5
+
+[cavitation]
+cav_delta_ns     = 12000
+cav_threshold    = 24      # of 256
+
+[profile]
+table_entries    = 32
+
+[limits]
+max_reps         = 2048
+rate_per_second  = 40

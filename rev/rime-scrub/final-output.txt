@@ -1,0 +1,4 @@
+enable: 71 00 01 00 00 00 71 00 02 00 00 00 7e 00 01 00 95 00
+KEYHEX 6dc75daad9d63e7f24d701022e54887d
+FLAG isfcr{6dc75daad9d63e7f24d701022e54887d}
+UNLOCK b'3\x00\x04\x00\x00\x00isfcr{rime_8834_scrub_10912526_cleared}\n'

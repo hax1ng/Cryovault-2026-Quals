@@ -1,0 +1,5 @@
+[+] connected; opening 256 concurrent sessions
+[+] received all commitments (2.2s)
+[+] received 256 responses (3.3s)
+valid 257 answered 256
+one more! isfcr{r0s_1s_n0t_h4rd_f0r_l0g_p}

@@ -1,0 +1,31 @@
+KESTREL INSTRUMENTS — SECURITY ADVISORY
+=======================================
+
+ID:        KES-2026-0114
+Product:   Kestrel CT-9 thermocline sounder
+Affected:  firmware 2.3.0 through 2.3.4
+Fixed in:  firmware 2.4.0
+Severity:  High
+Published: 2026-03-19
+
+SUMMARY
+
+  The command authentication tag is compared with a byte-wise loop that returns on
+  the first differing byte. An attacker able to measure response latency may recover
+  the session tag byte by byte.
+
+DETAIL
+
+  ct9_auth.verify() in affected revisions walks the expected and supplied tags in
+  lockstep and returns False at the first mismatch. Response latency therefore
+  correlates with the length of the matching prefix.
+
+REMEDIATION
+
+  Upgrade to 2.4.0 or later, in which the comparison is performed in constant time.
+  No configuration change is required and no workaround is available for affected
+  revisions.
+
+CREDIT
+
+  Reported by the SHARD-24 integration team.
